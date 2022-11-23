@@ -1,63 +1,26 @@
 body {
-  color: #913D88;
-  font-size: 36px;
   border: 1px solid #333;
+  font-style: italic;
+  font-family: 'Raleway', serif;
 }
 
+li {
 
-/* < !--=====================Селектори 4-го рангу=========================--> */
+  /* text-decoration: none; */
+  list-style: none;
 
-/* Специфічність - 0 0 0 1 */
-p {
-  color: green;
 }
 
-/* ✅ Специфічність - 0 0 0 2 */
-article>p {
-  color: orange;
+.item {
+  text-transform: uppercase;
 }
 
-
-
-/* < !--=====================Селектори 3-го рангу=========================--> */
-
-/* Специфічність - 0 0 1 0 */
-.post-title {
-  color: green;
-}
-
-
-/* Специфічність - 0 0 1 1 */
-.post>h1 {
-  /* color: red; */
-}
-
-
-
-/* ✅ Специфічність - 0 0 2 0 */
-.post>.post-title {
-  /* color: orange; */
-  /* border: inherit; */
-}
-
-/* < !--=====================Селектори 2-го рангу=========================--> */
-
-
-
-/* Специфічність - 0 0 1 0 */
-.post-title {
-  color: green;
-}
-
-.post-title:hover {
-  color: rgb(241, 23, 172);
-}
-
-/* ✅ Специфічність - 0 1 0 0 */
-#title {
-  color: orange;
-}
-
-a[href*="w3schools"] {
-  color: red;
+.text {
+  /* font-family: Roboto; */
+  font-weight: 400;
+  width: 500px;
+  word-break: break-all;
+  text-indent: 50px;
+  text-transform: lowercase;
+  font-style: normal;
 }

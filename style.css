@@ -1,0 +1,144 @@
+body {
+  font-family: 'Lucida Sans Unicode', serif;
+  font-size: 19px;
+  /* box-sizing: border-box; */
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* outline: 1px solid greenyellow; */
+}
+
+.menu {
+
+  display: flex;
+  border: 3px solid aqua;
+  /* border-radius: 5px; */
+
+  /* margin: 0 auto; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.item {
+  width: calc((100% - 50px) / 6);
+
+  /* display: block; */
+  /* margin: 15px; */
+  /* border: 3px solid rgb(58, 247, 16); */
+  /* border-radius: 5px; */
+  background: rgb(162, 156, 156);
+  /* width: 50%; */
+  /* height: 35px; */
+}
+
+.item:last-child {
+  margin: 0;
+}
+
+.link {
+  /* display: block; */
+  background-color: aquamarine;
+
+
+}
+
+
+
+
+
+
+/* ===================== FLEX-GRID ============================ */
+
+/* [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end]; */
+
+
+.product {}
+
+.h2-prod {}
+
+.gallery-section {
+  display: grid;
+  grid-template-columns: 363px 366px 366px;
+  grid-template-rows: 210px 197px;
+
+  outline: 2px solid red;
+  background-color: aqua;
+  gap: 10px;
+}
+
+.gallery-image {
+  outline: 2px solid rgb(31, 22, 118);
+  background-color: rgb(208, 31, 196);
+
+}
+
+/*   grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
+
+.g-i-1 {
+  grid-area: 1 / 1 / 2 / 2;
+
+  /* grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2; */
+
+}
+
+.g-i-2 {
+  grid-area: 1 / 2 / 2 / 3;
+  /* grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 3; */
+}
+
+.g-i-3 {
+  grid-area: 2 / 1 / 3 / 2;
+  /* grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2; */
+}
+
+.g-i-4 {
+  grid-area: 2 / 2 / 3 / 3;
+  /* grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3; */
+}
+
+.g-i-5 {
+  grid-area: 1 / 3 / 3 / 4;
+  /* grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 4; */
+
+}

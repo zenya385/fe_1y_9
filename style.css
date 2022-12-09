@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  background-color: #7cdc17;
+  height: 150px;
+  /* width: 150px; */
+  gap: 15px;
+}
+
+.sidebar {
+  background-color: #d64a4a;
+  padding: 10px;
+  flex-basis: 80px;
+}
+
+.content {
+  background-color: #792ed3;
+  padding: 10px;
+  flex-basis: 40px;
+  align-items: flex-start;
+
+}
+
+.elem4 {
+  flex-basis: 40px;
+  height: 50px;
+  /* order: -1; */
+  flex-shrink: 10;
+  /* flex-grow: 10; */
+}
+
+.elem3 {
+
+  /* order: 1; */
+  /* flex-grow: 5; */
+  height: 50px;
+  align-self: center;
+}

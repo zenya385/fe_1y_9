@@ -30,7 +30,7 @@
 } */
 
 /* ======= transition-property & transition-duration ================================  */
-
+/* 
 * {
   box-sizing: border-box;
 }
@@ -90,7 +90,7 @@ h1 {
   background-color: palevioletred;
 
   transition-duration: 3000ms;
-}
+} */
 
 /* ======= transition-timing-function ================================  */
 
@@ -227,7 +227,7 @@ div {
 
 /* ======= ВЛАСТИВІСТЬ animation ==== */
 
-img {
+/* img {
   animation-name: spiner;
   animation-duration: 5s;
   animation-timing-function: linear;
@@ -246,5 +246,41 @@ img {
 
   100% {
     transform: translate(600px, 600px) rotate(360deg);
+  }
+} */
+
+
+img {
+  animation-name: sun;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-delay: 1000ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.img:hover {
+  animation-play-state: paused;
+}
+
+@keyframes sun {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(0px, 530px) rotate(100deg);
+  }
+
+  50% {
+    transform: translate(530px, 530px) rotate(200deg);
+  }
+
+  75% {
+    transform: translate(530px, 0px) rotate(280deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(360deg);
   }
 }

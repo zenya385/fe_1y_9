@@ -20,19 +20,18 @@
 
   transition-property: background-color;
   transition-duration: 500ms;
-  transition-timing-function: ;
-  transition-delay: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 100ms;
 }
 
 
 .box:hover {
   background-color: teal;
-  /* transform: rotate(180deg); */
-/* } */ 
+} */
 
 /* ======= transition-property & transition-duration ================================  */
 
-/* * {
+* {
   box-sizing: border-box;
 }
 
@@ -91,7 +90,7 @@ h1 {
   background-color: palevioletred;
 
   transition-duration: 3000ms;
-} */
+}
 
 /* ======= transition-timing-function ================================  */
 
@@ -238,10 +237,11 @@ img {
 
 @keyframes spiner {
   0% {
-    transform:  rotate(0deg);
+    transform: rotate(0deg);
   }
+
   50% {
-    transform: translate(300px, 300px)  rotate(180deg);
+    transform: translate(300px, 300px) rotate(180deg);
   }
 
   100% {

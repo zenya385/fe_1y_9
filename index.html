@@ -5,56 +5,168 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <title>shadow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!--Наша команда-->
-  <section class="section section__bg-color">
-    <div class="container .page-title-h2">
-      <h2 class="page-title-h2">Наша команда</h2>
-      <ul class="card list">
-        <li class="card__item">
+  <!--header-->
+  <header class="page-header">
+    <div class="container">
+      <nav class="menu">
+        <a href="./index.html" class="logo logo-color-black"><span class="logo-web">Web</span>Studio</a>
+        <ul class="menu-nav list">
+          <li class="menu-nav__item"><a href="./index.html" class="menu-nav__link link current">Студия</a>
+          </li>
+          <li class="menu-nav__item"><a href="./portfolio.html" class="menu-nav__link link">Портфолио</a></li>
+          <li class="menu-nav__item"><a href="" class="menu-nav__link link">Контакты</a></li>
+        </ul>
+      </nav>
 
-          <img class="card-img" src="./img/img.jpg" alt="фото дизайнера продуктов">
-
-          <div class="card__description">
-            <h3 class="card__name">Ігор Дем’яненко</h3>
-            <p class="card__text">Product Designer</p>
-          </div>
-        </li>
-        <li class="card__item">
-          <img class="card-img" src="./img/img (1).jpg" alt="фото фронтенд разработчика">
-          <div class="card__description">
-            <h3 class="card__name">Ольга Репіна</h3>
-            <p class="card__text">Frontend Developer</p>
-
-          </div>
-        </li>
-        <li class="card__item">
-
-          <img class="card-img" src="./img/img (2).jpg" alt="фото маркетолога">
-
-          <div class="card__description">
-            <h3 class="card__name">Михайло Єрмаков</h3>
-            <p class="card__text">Marketing</p>
-
-          </div>
-        </li>
-        <li class="card__item">
-
-          <img class="card-img" src="./img/img (3).jpg" alt="фото UI дизайнера">
-
-          <div class="card__description">
-            <h3 class="card__name">Михайло Ермаков</h3>
-            <p class="card__text">UI Designer</p>
-
-          </div>
-        </li>
-      </ul>
+      <div class="header-contact">
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
+            <a class="link header-contact-link" href="mailto:http//info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="header-contact__item">
+            <a class="link header-contact__link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </section>
+  </header>
+  <main>
+    <!--Герой-->
+    <section class="hero">
+      <h1 class="hero-title">еФЕКтивні рішення для вашого бізнесу</h1>
+      <button type="button" class="hero-button">Замовити послугу</button>
+    </section>
+    <!--Особливості -->
+    <section class="section">
+      <div class="container">
+        <ul class="feature-list list">
+          <!--Feature 1-->
+          <li class="feature-list-item">
+
+            <h3 class="feature-list-title">Увага до деталей</h3>
+            <p class="feature-list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis
+              exercitationem velit magnam iure.
+            </p>
+          </li>
+          <!--Feature 2-->
+          <li class="feature-list-item">
+
+            <h3 class="feature-list-title">Пунктуальність</h3>
+            <p class="feature-list-text">Завдання організації, особливо ж рамки і місце навчання
+              кадрів тягнеза собою.</p>
+          </li>
+          <!--Feature 3-->
+          <li class="feature-list-item">
+            <h3 class="feature-list-title">Планування</h3>
+            <p class="feature-list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis
+              exercitationem velit magnam iure.</p>
+          </li>
+          <!--Feature 4-->
+          <li class="feature-list__item">
+
+            <h3 class="feature-list-title">Сучасні технології</h3>
+            <p class="feature-list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis
+              exercitationem velit magnam iure.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Чи ми займаємось-->
+    <section class="section work-section work-section__pt0">
+      <div class="container">
+        <h2 class="page-title-h2">Чи ми займаємось</h2>
+        <ul class="work-list list">
+          <li class="work-list__item">
+            <img class="work-list__img" src="./img/" alt="програмування">
+          </li>
+          <li class="work-list__item">
+            <img class="work-list__img" src="./img/img2.jpg" alt="дизайн додатків">
+          </li>
+          <li class="work-list__item">
+            <img class="work-list__img" src="./img/box3-min.jpg" alt="графічний дизайн">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Наша команда-->
+    <section class="section section__bg-color">
+      <div class="container .page-title-h2">
+        <h2 class="page-title-h2">Наша команда</h2>
+        <ul class="card list">
+          <li class="card__item">
+
+            <img class="card-img" src="./img/img.jpg" alt="фото дизайнера продуктов">
+
+            <div class="card__description">
+              <h3 class="card__name">Ігор Дем’яненко</h3>
+              <p class="card__text">Product Designer</p>
+            </div>
+          </li>
+          <li class="card__item">
+            <img class="card-img" src="./img/img (1).jpg" alt="фото фронтенд разработчика">
+            <div class="card__description">
+              <h3 class="card__name">Ольга Репіна</h3>
+              <p class="card__text">Frontend Developer</p>
+
+            </div>
+          </li>
+          <li class="card__item">
+
+            <img class="card-img" src="./img/img (2).jpg" alt="фото маркетолога">
+
+            <div class="card__description">
+              <h3 class="card__name">Михайло Єрмаков</h3>
+              <p class="card__text">Marketing</p>
+
+            </div>
+          </li>
+          <li class="card__item">
+
+            <img class="card-img" src="./img/img (3).jpg" alt="фото UI дизайнера">
+
+            <div class="card__description">
+              <h3 class="card__name">Михайло Ермаков</h3>
+              <p class="card__text">UI Designer</p>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- footer-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="footer">
+        <div class="footer-left">
+          <a href="./index.html" class="logo logo-color-white"> <span class="logo-web">Web</span>Studio</a>
+
+          <div class="footer-adrs">
+            <ul class="footer-adrs__address">
+              <li class="footer-adrs__item">
+                <p class="footer-adrs__text">г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li class="footer-adrs__ltem"><a class="footer-adrs__text1"
+                  href="mailto:http//info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="footer-adrs__item"><a class="footer-adrs__text1" href="tel:+380961111111">+38 096
+                  111
+                  11 11</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

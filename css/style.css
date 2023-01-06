@@ -47,6 +47,111 @@ body {
   padding: 60px 0;
 }
 
+/*! <!--header--> */
+/* .page-header {
+}
+.container {
+}
+.menu {
+}
+.logo {
+}
+.logo-color-black {
+}
+.logo-web {
+}
+.menu-nav {
+}
+.list {
+}
+.menu-nav__item {
+}
+.menu-nav__link {
+}
+.link {
+}
+.current {
+}
+.header-contact {
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contact-link {
+}
+.header-contact__item {
+}
+.header-contact__link {
+} */
+
+/*! <!--Герой--> */
+.hero {
+  padding: 118px 45px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.hero-title {
+  max-width: 360px;
+  margin: 0 auto 30px;
+  color: #ffffff;
+  /* font-family: Roboto; */
+  font-style: 400;
+  font-size: 44px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-button {}
+
+/*! <!--Особливості--> */
+/* .section {
+}
+.container {
+}
+.feature-list {
+}
+.list {
+}
+.feature-list-item {
+}
+.feature-list-title {
+}
+.feature-list-text {
+}
+.feature-list__item {
+} */
+
+/*! <!--Чи ми займаємось--> */
+/* .section {
+}
+.work-section {
+}
+.work-section__pt0 {
+}
+.container {
+}
+.page-title-h2 {
+}
+.work-list {
+}
+.list {
+}
+.work-list__item {
+}
+.work-list__img {
+} */
+
+
+/*! <!--Наша команда--> */
+
 @media screen and (min-width: 1200px) {
   .section {
     padding: 94px 0;
@@ -174,3 +279,33 @@ body {
 .card-social-list__link:focus .card-social-list__icon {
   fill: #ffffff;
 }
+
+
+/* <!-- footer--> */
+
+/* .page-footer {
+}
+.container {
+}
+.footer {
+}
+.footer-left {
+}
+.logo {
+}
+.logo-color-white {
+}
+.logo-web {
+}
+.footer-adrs {
+}
+.footer-adrs__address {
+}
+.footer-adrs__item {
+}
+.footer-adrs__text {
+}
+.footer-adrs__ltem {
+}
+.footer-adrs__text1 {
+} */
